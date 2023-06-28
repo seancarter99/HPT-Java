@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Sean Carter\SkillStorm\HPT_Java\.metadata\.plugins\org.eclipse.jdt.core
+2226992936.index
+1865797976.index
+2770624186.index

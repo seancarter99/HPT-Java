@@ -1,0 +1,10 @@
+package com.skillstorm.oop;
+
+public class BankAccount {
+	
+	String holder;
+	double balance;
+	String accountNumber;
+	String routingNumber;
+
+}

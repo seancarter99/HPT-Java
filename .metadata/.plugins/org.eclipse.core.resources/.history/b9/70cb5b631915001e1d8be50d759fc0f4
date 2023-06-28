@@ -1,0 +1,17 @@
+package com.skillstorm.oop.interfaces;
+
+/**
+ * Abstract Class vs Interface
+ * 
+ * Similarities:
+ * - You cannot instantiate either
+ * - They both act as a "root type"
+ * 
+ * Differences:
+ * - Interfaces are more lightweight
+ * - Interfaces don't contain properties, non abstract methods, or constructors
+ * 
+ */
+public interface Driveable {
+
+}

@@ -1,0 +1,6 @@
+package com.skillstorm.exceptions;
+
+public class InvalidPasswordException extends Exception {
+
+
+}

@@ -1,0 +1,10 @@
+package com.skillstorm.exceptions;
+
+public class ExceptionPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

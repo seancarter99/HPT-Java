@@ -1,0 +1,9 @@
+package com.skillstorm.oop.zoo;
+
+// Abstraction
+// Facade Design Pattern
+public abstract class Animal {
+
+	// Composed of abstract methods
+	public void speak(); // I won't provide a definition for the method
+}

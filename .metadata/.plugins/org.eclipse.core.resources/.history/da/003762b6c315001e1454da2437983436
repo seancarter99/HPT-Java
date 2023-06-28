@@ -1,0 +1,8 @@
+package com.skillstorm.oop;
+
+public class BankAccount {
+	
+	String holder;
+	double balance;
+
+}

@@ -1,0 +1,20 @@
+package com.skillstorm.oop.geometry;
+
+// Square will inherit all properties and methods from Rectangle (code reuse)
+public class Square extends Rectangle {
+
+	// Creating a Square
+	public Square() {
+		
+	}
+	
+	public Square() {
+		
+	}
+	
+	public static void main(String[] args) {
+		Square taco = new Square();
+		taco.length = 4.0;
+		System.out.println(taco.length);
+	}
+}

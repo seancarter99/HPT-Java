@@ -1,0 +1,19 @@
+package com.skillstorm.oop.zoo;
+
+public class Honeybadger {
+
+	String personality;
+	double size;
+	double weight;
+	
+	public Honeybadger() {
+		// this()
+		this.personality = "Fearless";
+	}
+	
+	public Honeybadger(String personality, double size, double weight) {
+		this.personality = personality;
+		this.size = size;
+		this.weight = weight;
+	}
+}

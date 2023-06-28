@@ -1,0 +1,17 @@
+package com.skillstorm;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		/**
+		 * Primitive
+		 * - int (Integer 32 bit)
+		 * - long (Integer 64 bit)
+		 * - short
+		 * 
+		 * Non Primitive
+		 * - Array
+		 */
+	}
+
+}

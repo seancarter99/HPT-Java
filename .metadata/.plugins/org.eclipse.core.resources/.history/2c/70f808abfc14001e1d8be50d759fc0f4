@@ -1,0 +1,5 @@
+package com.skillstorm.oop.geometry;
+
+public class Square {
+
+}

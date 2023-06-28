@@ -1,0 +1,15 @@
+package com.skillstorm.exceptions;
+
+public class InvalidPasswordException extends Exception {
+	// I don't care about this
+	private static final long serialVersionUID = -6427846603582139329L;
+
+	public InvalidPasswordException() {
+		super();
+		
+	}
+
+	public InvalidPasswordException(String errorMsg) {
+		super(errorMsg);
+	}
+}

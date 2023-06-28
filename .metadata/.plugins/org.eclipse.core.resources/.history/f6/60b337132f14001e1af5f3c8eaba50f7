@@ -1,0 +1,15 @@
+package com.skillstorm;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		/**
+		 * Primitive
+		 * - int
+		 * 
+		 * Non Primitive
+		 * - Array
+		 */
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.skillstorm.oop.geometry;
+
+public class Rectangle {
+
+	double length;
+}

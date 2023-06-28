@@ -1,0 +1,16 @@
+package com.skillstorm.oop.geometry;
+
+public class Rhombus extends Square {
+
+	public Rhombus() {
+		super(); // super() will call Square(), and Square() will call Rectangle()
+	}
+	
+	public Rhombus(double length) {
+		super(length);
+	}
+	
+	public static void main(String[] args) {
+		Rhombus r = new Rhombus(5);
+	}
+}

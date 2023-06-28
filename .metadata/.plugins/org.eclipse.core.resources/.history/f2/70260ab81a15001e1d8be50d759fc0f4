@@ -1,0 +1,12 @@
+package com.skillstorm.oop.interfaces;
+
+public class AAA {
+
+	public static void driveVehicle(Driveable driveableEntity) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

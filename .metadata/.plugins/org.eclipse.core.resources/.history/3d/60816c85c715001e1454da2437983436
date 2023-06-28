@@ -1,0 +1,14 @@
+package com.skillstorm.exceptions;
+
+public class ExceptionPractice {
+
+	public static int divide(int x, int y) {
+		return x / y;
+	}
+	
+	public static void main(String[] args) {
+		// User inputs 2 numbers
+		divide(5, 0);
+	}
+
+}

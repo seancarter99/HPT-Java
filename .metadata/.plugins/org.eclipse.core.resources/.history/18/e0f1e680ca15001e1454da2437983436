@@ -1,0 +1,37 @@
+package com.skillstorm.exceptions;
+
+public class ExceptionPractice {
+
+	public static int divide(int x, int y, String password) {
+		if (password != "password") {
+			// Cause an exception
+			throw new IllegalArgumentException("Provided password is invalid");
+		}
+		return x / y;
+	}
+	
+	public static void a() {
+		// try/catch blocks
+		try {
+			// Put code that "could" break
+			b();
+		} catch (ArithmeticException e) {
+			// Put the code that happens when an exception does occur
+			System.out.println("Exception handled");
+		} catch (NullPointerException e) {
+			System.out.println("Null pointer exception handled");
+		}
+	}
+	
+	public static void b() {
+		divide(5, 0);
+	}
+	
+	public static void main(String[] args) {
+		// User inputs 2 numbers
+//		divide(5, 0);
+		a();
+		System.out.println("End of program");
+	}
+
+}

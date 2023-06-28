@@ -1,0 +1,66 @@
+package com.skillstorm.oop.zoo;
+
+class A {
+	public static void main(String[] args) {
+		Honeybadger h = new Honeybadger();
+//		System.out.println(h.size);
+		System.out.println(h.getPersonality());
+		h.setPersonality("Timid");
+		System.out.println(h.getPersonality());
+	}
+}
+
+public class Honeybadger extends Animal {
+
+	/**
+	 * Access Modifiers
+	 * 
+	 * public - Allow access ANYWHERE
+	 * protected - Allow access inside the same package OR to subclasses
+	 * default (no modifier AKA package private) - Allow access ONLY within the same package
+	 * private - Allow access ONLY within the same class
+	 */
+	
+	private String personality;
+	private double size;
+	private double weight;
+	
+	public Honeybadger() {
+		// this() calls the sibbling constructor
+		this("Fearless", 5.0, 50.0); // Honeybadger("Fearless", 5.0, 50.0);
+	}
+	
+	public Honeybadger(String personality, double size, double weight) {
+		this.personality = personality;
+		this.size = size;
+		this.weight = weight;
+	}
+	
+	// Getters and Setters
+	// Getters are for READ access
+	// personality -> getpersonality -> getPersonality()
+	public String getPersonality() {
+		return personality;
+	}
+	
+	// Setters are for WRITE access
+	public void setPersonality(String personality) {
+		if (personality == "Timid") {
+			this.personality = "Fearless";
+		} else {
+			this.personality = personality;
+		}
+	}
+	
+	// Overriding
+	@Override
+	public void speak() {
+		
+	}
+	
+	public static void main(String[] args) {
+		Honeybadger h = new Honeybadger();
+		h.personality = "Timid";
+		System.out.println(h.size);
+	}
+}

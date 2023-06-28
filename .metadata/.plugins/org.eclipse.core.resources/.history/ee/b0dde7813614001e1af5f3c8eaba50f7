@@ -1,0 +1,20 @@
+package com.skillstorm;
+
+public class ControlFlowPractice {
+
+	public static void c() {
+
+	}
+
+	public static void a() {
+
+	}
+
+	public static void b() {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

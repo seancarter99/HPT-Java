@@ -1,0 +1,16 @@
+package com.skillstorm.oop.interfaces;
+
+/**
+ * Abstract Class vs Interface
+ * 
+ * Similarities:
+ * - You cannot instantiate either
+ * 
+ * Differences:
+ * - Interfaces are more lightweight
+ * 
+ */
+public interface Driveable {
+
+	
+}

@@ -1,0 +1,7 @@
+package com.skillstorm.oop.zoo;
+
+// Abstraction
+// Facade Design Pattern
+public class Animal {
+
+}

@@ -1,0 +1,8 @@
+package com.skillstorm.oop.geometry;
+
+public class Rectangle {
+
+	// 1. List all the properties of the class
+	double length;
+	double width;
+}

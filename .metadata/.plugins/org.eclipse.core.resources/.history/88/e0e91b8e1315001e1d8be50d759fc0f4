@@ -1,0 +1,39 @@
+package com.skillstorm.oop.zoo;
+
+class A {
+	public static void main(String[] args) {
+		Honeybadger h = new Honeybadger();
+	}
+}
+
+public class Honeybadger {
+
+	/**
+	 * Access Modifiers
+	 * 
+	 * public - Allow access ANYWHERE
+	 * protected - Allow access inside the same package OR to subclasses
+	 * default (no modifier AKA package private) - Allow access ONLY within the same package
+	 * private - Allow access ONLY within the same class
+	 */
+	
+	private String personality;
+	private double size;
+	private double weight;
+	
+	public Honeybadger() {
+		// this() calls the sibbling constructor
+		this("Fearless", 5.0, 50.0); // Honeybadger("Fearless", 5.0, 50.0);
+	}
+	
+	public Honeybadger(String personality, double size, double weight) {
+		this.personality = personality;
+		this.size = size;
+		this.weight = weight;
+	}
+	
+	public static void main(String[] args) {
+		Honeybadger h = new Honeybadger();
+		h.personality = "Timid";
+	}
+}

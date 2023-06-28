@@ -1,0 +1,13 @@
+package com.skillstorm;
+
+public class Functions {
+
+	public static void add() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

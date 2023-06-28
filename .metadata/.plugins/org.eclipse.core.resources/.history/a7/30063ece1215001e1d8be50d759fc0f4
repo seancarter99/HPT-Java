@@ -1,0 +1,31 @@
+package com.skillstorm.oop.zoo;
+
+public class Honeybadger {
+
+	/**
+	 * Access Modifiers
+	 * 
+	 * public - Allow access ANYWHERE
+	 * default - 
+	 */
+	
+	String personality;
+	double size;
+	double weight;
+	
+	public Honeybadger() {
+		// this() calls the sibbling constructor
+		this("Fearless", 5.0, 50.0); // Honeybadger("Fearless", 5.0, 50.0);
+	}
+	
+	public Honeybadger(String personality, double size, double weight) {
+		this.personality = personality;
+		this.size = size;
+		this.weight = weight;
+	}
+	
+	public static void main(String[] args) {
+		Honeybadger h = new Honeybadger();
+		h.personality = "Timid";
+	}
+}

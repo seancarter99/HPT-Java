@@ -1,0 +1,23 @@
+package com.skillstorm.oop;
+
+public class BankAccount {
+	
+	private String holder;
+	private double balance;
+	private final String accountNumber; // READ ONLY
+	private final String routingNumber; // READ ONLY
+	
+	public BankAccount(String holder, double balance, String accountNumber, String routingNumber) {
+		this.holder = holder;
+		this.balance = balance;
+		this.accountNumber = accountNumber;
+		this.routingNumber = routingNumber;
+	}
+
+	// access-modifier return-type functionName(params...) {}
+	public String getHolder() {
+		return holder;
+	}
+	
+	
+}

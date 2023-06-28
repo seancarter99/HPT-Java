@@ -1,0 +1,20 @@
+package com.skillstorm.oop.interfaces;
+
+public class AAA {
+
+	// Polymorphism 
+	// Many Forms
+	public static void driveVehicle(Driveable driveableEntity) {
+		driveableEntity.drive();
+	}
+	
+	public static void main(String[] args) {
+		Car car = new Car();
+		Bicycle bike = new Bicycle();
+		Scooter scoot = new Scooter();
+		
+		driveVehicle(bike);
+		driveVehicle(scoot);
+		driveVehicle(car);
+	}
+}

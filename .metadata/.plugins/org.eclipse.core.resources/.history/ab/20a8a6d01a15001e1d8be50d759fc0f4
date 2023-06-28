@@ -1,0 +1,16 @@
+package com.skillstorm.oop.interfaces;
+
+public class AAA {
+
+	public static void driveVehicle(Driveable driveableEntity) {
+		driveableEntity.drive();
+	}
+	
+	public static void main(String[] args) {
+		Car c = new Car();
+		Bicycle bike = new Bicycle();
+		Scooter scoot = new Scooter();
+		
+		driveVehicle(scoot);
+	}
+}
